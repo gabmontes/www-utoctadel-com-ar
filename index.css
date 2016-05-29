@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #123456;
+  color: white;
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 100;
+}
+
+h1 {
+  font-size: 2.5em;
+  font-weight: 100;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.cover-all {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.container-column-centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-centered {
+  text-align: center;
+}
+
+.stretch-all {
+  flex: 1 100%;
+}
+
+.fixed-size {
+  flex: 0 50px;
+}
+
+footer a {
+  padding: 0 10px;
+}
