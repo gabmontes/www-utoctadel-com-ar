@@ -1,11 +1,9 @@
 {
-  "name": "utoctadel-website",
+  "name": "www-utoctadel-com-ar",
   "scripts": {
-    "start": "list",
     "deploy": "surge ."
   },
   "devDependencies": {
-    "micro-list": "latest",
     "surge": "latest"
   }
 }
